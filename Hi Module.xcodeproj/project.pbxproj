@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		"04039C55-FCFA-4801-A1B5-7ABA98711A6F" /* interFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "687850F6-3FED-4753-BE8B-BECAF88AFD79" /* interFace.cpp */; };
+		"40148788-7312-4FE7-BD4E-1B318BA158FD" /* marginBand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "41ADE65D-F1FB-4A21-B075-E0846F5944E0" /* marginBand.cpp */; };
+		"449D2672-D907-4DF3-A0B6-765410CF4154" /* VStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "D875477F-F6CD-413B-8256-3E54323CFEB9" /* VStack.cpp */; };
+		"52FC538D-977A-4C45-980D-0D3AFA550F3C" /* darlingApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "412703D5-F90A-4969-B9D0-B63E02DC2BFE" /* darlingApp.cpp */; };
+		"69B3496D-FA56-483F-A33B-1D71DBB3372F" /* badMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "879B7075-85C1-4FC7-B082-2D2B2A6269F4" /* badMode.cpp */; };
+		"8224CA22-125E-4572-B7B4-CA0D293E9B5E" /* ofxTskokmtMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "1E6B9337-9642-4BFA-969A-76E6AE813C74" /* ofxTskokmtMath.cpp */; };
+		"C63B3C2A-DD1D-4C22-9484-91F7596DF3CD" /* HStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "079765CE-43F9-4504-BAB1-B1CA449D1165" /* HStack.cpp */; };
+		"CCCFB842-5220-4968-96CF-66BFCDDDB950" /* bluBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = "E3724CBD-604F-4773-A2BE-888DB00D6148" /* bluBar.cpp */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4A5B60F29BAAAE400C2D356 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		"079765CE-43F9-4504-BAB1-B1CA449D1165" /* HStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HStack.cpp; path = src/addons/ofxFrameOcean/src/HStack.cpp; sourceTree = SOURCE_ROOT; };
+		"0BDBC63A-9B0E-4D6E-A73B-6892BDF0C019" /* HStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HStack.h; path = src/addons/ofxFrameOcean/src/HStack.h; sourceTree = SOURCE_ROOT; };
+		191CD6FA2847E21E0085CBB6 /* of.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = of.entitlements; sourceTree = "<group>"; };
+		191EF70929D778A400F35F26 /* openFrameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = openFrameworks; path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/libs/openFrameworks; sourceTree = SOURCE_ROOT; };
+		"1E6B9337-9642-4BFA-969A-76E6AE813C74" /* ofxTskokmtMath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxTskokmtMath.cpp; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.cpp; sourceTree = SOURCE_ROOT; };
+		"38561C1E-AF03-4A33-83CB-A4C7419161B4" /* badMode.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = badMode.h; path = src/modules/badMode.h; sourceTree = SOURCE_ROOT; };
+		"412703D5-F90A-4969-B9D0-B63E02DC2BFE" /* darlingApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = darlingApp.cpp; path = src/modules/darlingApp.cpp; sourceTree = SOURCE_ROOT; };
+		"41ADE65D-F1FB-4A21-B075-E0846F5944E0" /* marginBand.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = marginBand.cpp; path = src/addons/ofxFrameOcean/src/marginBand.cpp; sourceTree = SOURCE_ROOT; };
+		"4591EA01-4E24-45A3-8FEE-453CA0607084" /* darlingApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = darlingApp.h; path = src/modules/darlingApp.h; sourceTree = SOURCE_ROOT; };
+		"54CDE84A-EE60-42D9-A431-A34B821645F5" /* bluBar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bluBar.h; path = src/modules/bluBar.h; sourceTree = SOURCE_ROOT; };
+		"67F8BD4B-B34F-4F07-AD7C-D84618BA5485" /* interFace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = interFace.h; path = src/interFace.h; sourceTree = SOURCE_ROOT; };
+		"687850F6-3FED-4753-BE8B-BECAF88AFD79" /* interFace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = interFace.cpp; path = src/interFace.cpp; sourceTree = SOURCE_ROOT; };
+		"775A6842-7EC2-4B8A-B822-9129FAAA1B83" /* marginBand.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = marginBand.h; path = src/addons/ofxFrameOcean/src/marginBand.h; sourceTree = SOURCE_ROOT; };
+		"879B7075-85C1-4FC7-B082-2D2B2A6269F4" /* badMode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = badMode.cpp; path = src/modules/badMode.cpp; sourceTree = SOURCE_ROOT; };
+		"B43A3B9A-E6DA-49CF-A03D-DD4D7EAACE8E" /* VStack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = VStack.h; path = src/addons/ofxFrameOcean/src/VStack.h; sourceTree = SOURCE_ROOT; };
+		"C79B7646-593A-4DE4-ACB2-6FD5C631A3BA" /* ofxFrameOcean.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxFrameOcean.h; path = src/addons/ofxFrameOcean/src/ofxFrameOcean.h; sourceTree = SOURCE_ROOT; };
+		"CD71E83B-4F72-4BAB-8F88-3A82074D89B6" /* ofxTskokmtMath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxTskokmtMath.h; path = src/addons/ofxTskokmtMath/src/ofxTskokmtMath.h; sourceTree = SOURCE_ROOT; };
+		"D875477F-F6CD-413B-8256-3E54323CFEB9" /* VStack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VStack.cpp; path = src/addons/ofxFrameOcean/src/VStack.cpp; sourceTree = SOURCE_ROOT; };
+		"E3724CBD-604F-4773-A2BE-888DB00D6148" /* bluBar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bluBar.cpp; path = src/modules/bluBar.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* Hi ModuleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hi ModuleDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		"31A44144-BD28-43DC-956F-6005B14D6A5E" /* src */ = {
+			isa = PBXGroup;
+			children = (
+				"079765CE-43F9-4504-BAB1-B1CA449D1165" /* HStack.cpp */,
+				"0BDBC63A-9B0E-4D6E-A73B-6892BDF0C019" /* HStack.h */,
+				"D875477F-F6CD-413B-8256-3E54323CFEB9" /* VStack.cpp */,
+				"B43A3B9A-E6DA-49CF-A03D-DD4D7EAACE8E" /* VStack.h */,
+				"41ADE65D-F1FB-4A21-B075-E0846F5944E0" /* marginBand.cpp */,
+				"775A6842-7EC2-4B8A-B822-9129FAAA1B83" /* marginBand.h */,
+				"C79B7646-593A-4DE4-ACB2-6FD5C631A3BA" /* ofxFrameOcean.h */,
+			);
+			name = src;
+			path = src/addons/ofxFrameOcean/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		"3DDFF88E-1C6B-4EB7-8CBD-B3985676108C" /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				"66A3F2F6-0299-46A1-9C5F-EC052AE262E9" /* ofxFrameOcean */,
+				"F7D8D742-0D9C-40B2-B7C6-423B14064397" /* ofxTskokmtMath */,
+			);
+			name = addons;
+			path = src/addons;
+			sourceTree = SOURCE_ROOT;
+		};
+		"66A3F2F6-0299-46A1-9C5F-EC052AE262E9" /* ofxFrameOcean */ = {
+			isa = PBXGroup;
+			children = (
+				"31A44144-BD28-43DC-956F-6005B14D6A5E" /* src */,
+			);
+			name = ofxFrameOcean;
+			path = src/addons/ofxFrameOcean;
+			sourceTree = SOURCE_ROOT;
+		};
+		"892B8021-E416-4126-AE52-AE1621801B30" /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				"879B7075-85C1-4FC7-B082-2D2B2A6269F4" /* badMode.cpp */,
+				"38561C1E-AF03-4A33-83CB-A4C7419161B4" /* badMode.h */,
+				"E3724CBD-604F-4773-A2BE-888DB00D6148" /* bluBar.cpp */,
+				"54CDE84A-EE60-42D9-A431-A34B821645F5" /* bluBar.h */,
+				"412703D5-F90A-4969-B9D0-B63E02DC2BFE" /* darlingApp.cpp */,
+				"4591EA01-4E24-45A3-8FEE-453CA0607084" /* darlingApp.h */,
+			);
+			name = modules;
+			path = src/modules;
+			sourceTree = SOURCE_ROOT;
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			path = /Users/tskokmt/Downloads/of_v0.12.0_osx_release/addons;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				191CD6FA2847E21E0085CBB6 /* of.entitlements */,
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				191EF70929D778A400F35F26 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				E4B69B5B0A3A1756003C02F2 /* Hi ModuleDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				"687850F6-3FED-4753-BE8B-BECAF88AFD79" /* interFace.cpp */,
+				"67F8BD4B-B34F-4F07-AD7C-D84618BA5485" /* interFace.h */,
+				"3DDFF88E-1C6B-4EB7-8CBD-B3985676108C" /* addons */,
+				"892B8021-E416-4126-AE52-AE1621801B30" /* modules */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		"E91F468B-7C65-4C7C-84F6-CBC009A66B8D" /* src */ = {
+			isa = PBXGroup;
+			children = (
+				"1E6B9337-9642-4BFA-969A-76E6AE813C74" /* ofxTskokmtMath.cpp */,
+				"CD71E83B-4F72-4BAB-8F88-3A82074D89B6" /* ofxTskokmtMath.h */,
+			);
+			name = src;
+			path = src/addons/ofxTskokmtMath/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		"F7D8D742-0D9C-40B2-B7C6-423B14064397" /* ofxTskokmtMath */ = {
+			isa = PBXGroup;
+			children = (
+				"E91F468B-7C65-4C7C-84F6-CBC009A66B8D" /* src */,
+			);
+			name = ofxTskokmtMath;
+			path = src/addons/ofxTskokmtMath;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* Hi Module */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Hi Module" */;
+			buildPhases = (
+				E42962A92163ECCD00A6A9E2 /* Run Script — Compile OF */,
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				E4A5B60F29BAAAE400C2D356 /* CopyFiles */,
+				19B789C429E5AB4A0082E9B8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hi Module";
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* Hi ModuleDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Hi Module" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* Hi Module */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B789C429E5AB4A0082E9B8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42962A92163ECCD00A6A9E2 /* Run Script — Compile OF */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script — Compile OF";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"💾 Compiling Openframeworks\"\nxcodebuild -project \"$OF_PATH/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj\" -target openFrameworks -configuration \"${CONFIGURATION}\"  CLANG_CXX_LANGUAGE_STANDARD=$CLANG_CXX_LANGUAGE_STANDARD MACOSX_DEPLOYMENT_TARGET=$MACOSX_DEPLOYMENT_TARGET GCC_PREPROCESSOR_DEFINITIONS=$USER_PREPROCESSOR_DEFINITIONS\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				"C63B3C2A-DD1D-4C22-9484-91F7596DF3CD" /* HStack.cpp in Sources */,
+				"449D2672-D907-4DF3-A0B6-765410CF4154" /* VStack.cpp in Sources */,
+				"40148788-7312-4FE7-BD4E-1B318BA158FD" /* marginBand.cpp in Sources */,
+				"8224CA22-125E-4572-B7B4-CA0D293E9B5E" /* ofxTskokmtMath.cpp in Sources */,
+				"04039C55-FCFA-4801-A1B5-7ABA98711A6F" /* interFace.cpp in Sources */,
+				"69B3496D-FA56-483F-A33B-1D71DBB3372F" /* badMode.cpp in Sources */,
+				"CCCFB842-5220-4968-96CF-66BFCDDDB950" /* bluBar.cpp in Sources */,
+				"52FC538D-977A-4C45-980D-0D3AFA550F3C" /* darlingApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = of.entitlements;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				OTHER_CPLUSPLUSFLAGS = "-D__MACOSX_CORE__";
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = of.entitlements;
+				COPY_PHASE_STRIP = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_UNROLL_LOOPS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+				);
+				OTHER_CPLUSPLUSFLAGS = "-D__MACOSX_CORE__";
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_DYNAMIC_NO_PIC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/addons/ofxFrameOcean/src,
+					src/addons/ofxTskokmtMath/src,
+					src,
+					src/modules,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF_DEBUG)",
+				);
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					src/addons/ofxFrameOcean/src,
+					src/addons/ofxTskokmtMath/src,
+					src,
+					src/modules,
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)",
+				);
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Hi Module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Hi Module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
